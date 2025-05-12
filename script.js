@@ -1,5 +1,18 @@
 function minDate(dates) {
   //write you code here
+	let fd = dates[0];
+	dates.forEach(d => {
+		let fda = fda.split("/");
+		let cda = d.split("/");
+		if(fds[0] < cda[0]){
+			fd = d;
+		}else if(fda[0] == cda[0] && fda[1] < cda[1]){
+			fd = d;
+		}else if(fda[0] == cda[0] && fda[1] == cda[1] && fda[2] < cda[2]){
+			fd = d;
+		}
+	})
+	return fd;
 }
 
 // Do not change the code
