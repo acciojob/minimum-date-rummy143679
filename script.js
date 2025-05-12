@@ -8,7 +8,7 @@ function minDate(dates) {
 			fd = d;
 		}else if(fda[0] == cda[0] && fda[1] < cda[1]){
 			fd = d;
-		}else if(fda[0] == cda[0] && fda[1] == cda[1] && fda[2] < cda[2]){
+		}else if(fda[0] == cda[0] && fda[1] == cda[1] && fda[2] > cda[2]){
 			fd = d;
 		}
 	})
